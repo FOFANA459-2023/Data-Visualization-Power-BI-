@@ -1,4 +1,4 @@
-## CBL Gender and Departmental Staffing Analysis
+## Central Bank of Liberia's Gender and Department Staff Analysis
 ### Project Overview
 The data provides an overview of the gender distribution and staffing across various departments within an organization. It includes:
 - Total staff count: 368 employees.
