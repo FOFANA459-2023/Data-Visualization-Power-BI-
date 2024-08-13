@@ -31,7 +31,7 @@ EDA involved exploring the employees data to answer key question, such as:
       gender, 
       COUNT(*) AS staff_count
     FROM 
-      staff
+      CBL_staff_per_gender
     GROUP BY 
       gender;
   ```
@@ -41,7 +41,7 @@ EDA involved exploring the employees data to answer key question, such as:
       department, 
       ABS(SUM(CASE WHEN gender = 'Male' THEN 1 ELSE 0 END) - SUM(CASE WHEN gender = 'Female' THEN 1 ELSE 0 END)) AS gender_imbalance
     FROM 
-      staff
+      CBL_staff_per_gender
     GROUP BY 
       department
     ORDER BY 
@@ -55,7 +55,7 @@ EDA involved exploring the employees data to answer key question, such as:
         COUNT(DISTINCT department) AS total_departments, 
         COUNT(*) AS total_staff
     FROM 
-        staff;
+        CBL_staff_per_gender;
 ```
 
 4. What is the trend of male and female staff numbers across different departments?
@@ -66,7 +66,7 @@ EDA involved exploring the employees data to answer key question, such as:
       gender, 
       COUNT(*) AS staff_count
   FROM 
-      staff
+      CBL_staff_per_gender
   GROUP BY 
       department, 
       gender
@@ -82,7 +82,7 @@ EDA involved exploring the employees data to answer key question, such as:
       department, 
       COUNT(*) AS staff_count
   FROM 
-      staff
+      CBL_staff_per_gender
   GROUP BY 
       department
   ORDER BY 
@@ -92,7 +92,7 @@ EDA involved exploring the employees data to answer key question, such as:
       department, 
       COUNT(*) AS staff_count
   FROM 
-      staff
+      CBL_staff_per_gender
   GROUP BY 
       department
   ORDER BY 
