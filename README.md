@@ -12,7 +12,7 @@ The data provides an overview of the gender distribution and staffing across var
 - Power BI: Used to build interactive dashboards and final report.
   
 ### Data Cleaning/Preparation
-1. Load data
+1. Load and inspect data
 2. Standardize column names and department titles
 3. Validate gender entries (Male/Female only)
 4. Check for and handle missing values
@@ -23,7 +23,7 @@ The data provides an overview of the gender distribution and staffing across var
 9. Export cleaned data for Power BI visualization
 
 ### Exploratory Data Analysis
-EDA involved exploring the sales data to answer key question, such as:
+EDA involved exploring the employees data to answer key question, such as:
 
 1. What is the overall gender distribution of the staff in the organization?
   ```
