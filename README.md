@@ -34,6 +34,7 @@ This project focused on analyzing employee data to address the following critica
 ### Results/findings
 
 The report reveals that CBL has a total of 368 staff members, with 61.96% males and 38.04% females. The gender distribution varies significantly across departments, with some, like Human Resource Management and Legal, showing a higher proportion of female staff, while others, such as Banking and Financial Markets, are male-dominated. Overall, there is a noticeable gender imbalance across the departments.
+[View Project](https://drive.google.com/drive/u/0/folders/1j6dFq-VyZuIMfg8kW5rLNzkbpGEklpBd)
 
 ### Recommendation
 Central Bank of Liberia should:
