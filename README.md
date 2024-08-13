@@ -6,6 +6,11 @@ The data provides an overview of the gender distribution and staffing across var
 - Departmental breakdown: 18 departments with varying gender distributions.
 - Key visualizations: A line graph showing the number of male and female staff per department and a table detailing gender distribution percentages for each department.
 
+### Tools
+- Python: Used for scripting and extracting data from the CBL annual report.
+- Excel: Utilized for cleaning and organizing the extracted data.
+- Power BI: Used to build interactive dashboards and final report.
+  
 ### Data Cleaning/Preparation
 1. Load data
 2. Standardize column names and department titles
